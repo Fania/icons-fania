@@ -1,20 +1,26 @@
 {
-	"name": "vscode-theme-seti-fania",
-	"private": true,
-	"version": "0.1.0",
-    "description": "A file icon theme made out of the Seti UI file idons",
-	"publisher": "fania",
-	"scripts": {
-		"update": "node ./build/update-icon-theme.js"
-	},
-	"engines": { "vscode": "*" },
-	"contributes": {
-		"iconThemes": [
-			{
-				"id": "vs-seti",
-				"label": "Seti (Fania)",
-				"path": "./icons/vs-seti-icon-theme.json"
-			}
-		]
-	}
+    "name": "icons",
+    "version": "0.3.1",
+    "description": "Custom Seti based icon theme",
+    "publisher": "fania",
+    "icon": "fania.jpg",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Fania/icons-fania.git"
+    },
+    "scripts": {
+        "update": "node ./build/update-icon-theme.js"
+    },
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "vs-seti",
+                "label": "Seti (Fania)",
+                "path": "./icons/vs-seti-icon-theme.json"
+            }
+        ]
+    }
 }
