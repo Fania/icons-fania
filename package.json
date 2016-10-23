@@ -1,12 +1,12 @@
 {
-    "name": "icons",
-    "version": "0.3.1",
-    "description": "Custom Seti based icon theme",
+    "name": "icons-fania",
+    "displayName": "Fania Icons",
+    "version": "0.4.0",
+    "description": "Seti based icon theme with pink LaTeX icon.",
     "publisher": "fania",
-    "icon": "fania.jpg",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Fania/icons-fania.git"
+        "url": "https://github.com/Fania/vscode-icons.git"
     },
     "scripts": {
         "update": "node ./build/update-icon-theme.js"
